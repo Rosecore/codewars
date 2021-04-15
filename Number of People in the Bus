@@ -1,0 +1,7 @@
+var number = function(busStops){
+  let sum=0;
+  for (let elem of busStops){
+    sum+=elem[0]-elem[1];
+  }
+  return sum
+}
