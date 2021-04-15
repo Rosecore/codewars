@@ -1,0 +1,11 @@
+
+function highAndLow(numbers){
+ let n2=numbers.split(' ').map(Number);
+ let max=n2[0];
+ let min=n2[0];
+ for (let elem of n2){
+    if (elem<min) min=elem;  
+    if (elem>max) max=elem;
+ }
+  return max+' '+min;
+}
