@@ -1,0 +1,1 @@
+friends.filter(n => n.length === 4)
